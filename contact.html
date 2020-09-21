@@ -30,7 +30,7 @@
             </button>
             <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                <div class="navbar-nav">
-                  <a class="nav-item nav-link active" href="#">Home <span class="sr-only">(current)</span></a>
+                  <a class="nav-item nav-link active" href="./index.html">Home <span class="sr-only">(current)</span></a>
                   <a class="nav-item nav-link" href="./dogs.html">DOGS</a>
                   <a class="nav-item nav-link" href="./females.html">FEMALES</a>
                   <a class="nav-item nav-link" href="./puppies.html">PUPPIES</a>
@@ -38,74 +38,60 @@
                </div>
             </div>
          </nav>
-         <!-- /.NAVBAR -->
 
-		<!--Quotes-->
          <div class="container-wrapper">
          <div class="container quotes-container content-container">
             <section class="quotes">
                <div class="row">
                   <div class="col-12 page-header">
-                     <h2 class="our-dogs-home">3G MAX XL AMERICAN BULLIES</h2>
+                     <h2 class="our-dogs">Contact Us</h2>
                      <hr class="block-divider">
+                     <h3 class="sign-up-message">To reserve one of our pups or for any general enquiries please fill out the form below</h3>
                </div>
            </div>
        </section>
-
-       <div class="row rounded mx-auto d-block company-logo">
-               <div class="col-12">
-                  <div class="media">
-                     <div class="feature sonny-pic" style="margin-left: auto;margin-right: auto;">
-                        <img src="assets/images/company-logo-3.png" alt="Spartan Warrior" style="height: 600px; width: 600px;">
-                     </div>
-                  </div>
-               </div>
+ <hr class="block-divider">
+<div class="container-lg">
+    <div class="row">
+        <div class="col-md-10 mx-auto">
+            <div class="contact-form">    
+                <form action="/examples/actions/confirmation.php" method="post">
+                    <div class="row">
+                        <div class="col-sm-4">
+                            <div class="form-group">
+                                <label for="inputName">Name</label>
+                                <input type="text" class="form-control" id="inputName" required>
+                            </div>
+                        </div>                
+                        <div class="col-sm-4">
+                            <div class="form-group">
+                                <label for="inputEmail">Email</label>
+                                <input type="email" class="form-control" id="inputEmail" required>
+                            </div>
+                        </div>
+                        <div class="col-sm-4">
+                            <div class="form-group">
+                                <label for="inputPhone">Phone</label>
+                                <input type="text" class="form-control" id="inputPhone" required>
+                            </div>
+                        </div>
+                    </div>            
+                    <div class="form-group">
+                        <label for="inputSubject">Subject</label>
+                        <input type="text" class="form-control" id="inputSubject" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="inputMessage">Message</label>
+                        <textarea class="form-control" id="inputMessage" rows="5" required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary"><i class="fa fa-paper-plane"></i> Send</button>
+                </form>
             </div>
-            <hr class="block-divider">
-             <br>
-             <br>
-             <br>
-			<div class="row">
-				<div class="col-12 col-md-6 col-lg-4">
-					<div class="feature">
-						<h3> BloodLines</h3><i class="fas fa-tint"></i>
-						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-							labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
-							laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
-							voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
-							cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-						</p>
-					</div>
-				</div>
-
-				<div class="col-12 col-md-6 col-lg-4">
-					<div class="feature">
-						<h3> Health</h3><i class="fas fa-heartbeat"></i>
-						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-							labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
-							laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
-							voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
-							cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-						</p>
-					</div>
-				</div>
-
-				<div class="col-12 d-md-none d-lg-block col-lg-4">
-					<div class="feature">
-						<h3> About Us</h3><i class="fas fa-address-card"></i>
-						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-							labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
-							laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
-							voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
-							cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-						</p>
-					</div>
-				</div>
-			</div>
-	<hr class="block-divider">
-	</div>
+        </div>
     </div>
+</div>
 
+<hr class="block-divider">
 
 	<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
 		integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
