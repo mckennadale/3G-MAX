@@ -1,6 +1,6 @@
 body {
     font-family: 'Roboto Condensed', sans-serif;
-    background-color: #fafafa;
+    background-color: #FFF8DC;
 }
 
 .container-wrapper {
@@ -161,6 +161,10 @@ nav a:hover {
 
  .sonny-pic {
     border: 10px solid #926321;
+ }
+
+ .sold {
+     color: red;
  }
 
  .dog-info {
