@@ -1,6 +1,6 @@
 body {
     font-family: 'Roboto Condensed', sans-serif;
-    background-color: #FFF8DC;
+    background-color: #151515;
 }
 
 .container-wrapper {
@@ -31,21 +31,6 @@ padding-right: 0;
     overflow: hidden;
     padding-top: 20px;
     padding-bottom: 0px;
-}
-
-#hero-image {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    height: 1200px;
-    width: 100%;
-    background: url(../assets/images/fudge-bullie.jpg) no-repeat center center;
-    background-size: cover;
-    background-position: center;
-
-    animation-name: hero-zoom;
-    animation-duration: 5s;
-    animation-fill-mode: forwards;
 }
 
 
@@ -86,7 +71,7 @@ text-align: center;
     width: 100%;
     height: 5px;
     border: 0;
-    background-color: #926321;
+    background-color: #C5B358;
 }
 
 
@@ -107,11 +92,11 @@ text-align: center;
   z-index: 9999;
   width: 100%;
   height: 100px;
-  border: 10px solid #926321;
+  border: 10px solid #C5B358;
 }
 
 .navbar-brand {
-    color: #ffffff;
+    color: #151515;
 }
 
 .navbar .navbar-brand {
@@ -129,11 +114,11 @@ nav a:hover {
 
 
 .navbar-custom {
-    background-color: #926321;
+    background-color: #C5B358;
 }
 
 .nav-item {
-    color: #fafafa;
+    color: #151515;
     float: right;
 }
 
@@ -156,11 +141,17 @@ nav a:hover {
 }
 
  .navbar-collapse {
-     background-color: #926321;
+     background-color: #C5B358;
  }
 
  .sonny-pic {
-    border: 10px solid #926321;
+    padding-top: 10px;
+    text-align: center;
+    margin-bottom: 40px;
+ }
+
+ .fab {
+     color: #C5B358;
  }
 
  .sold {
@@ -183,6 +174,11 @@ nav a:hover {
      text-transform: uppercase;
      font-weight: bold;
      font-family: 'Rammetto One', sans-serif;
+     color: #C5B358;
+ }
+
+ .list-inline-item {
+     color: #C5B358;
  }
 
  .sign-up-message {
@@ -191,6 +187,7 @@ nav a:hover {
      text-transform: uppercase;
      font-weight: bold;
      font-family: 'Rammetto One', sans-serif;
+     color: #C5B358;
  }
  
  .dog-name {
@@ -199,6 +196,7 @@ nav a:hover {
      font-size: 60px;
      font-weight: bold;
      letter-spacing: 3px;
+     color: #C5B358;
 
  }
 
@@ -208,6 +206,7 @@ nav a:hover {
      text-transform: uppercase;
      font-weight: bold;
      font-family: 'Rammetto One', sans-serif;   
+     color: #C5B358;
  }
  /* NAVBAR */
 
@@ -246,6 +245,7 @@ nav a:hover {
     margin-bottom: 40px;
     font-size: 15px;
     font-weight: bold;
+    color: #C5B358;
 }
 
 .feature i {
@@ -263,7 +263,7 @@ nav a:hover {
 }
 
 .fa-address-card {
-    color: #926321;
+    color: #DC143C;
 }
 
 .feature .btn {
@@ -282,7 +282,7 @@ nav a:hover {
 }
 
 .footer-copyright {
-    color: #926321;
+    color: #C5B358;
     font-weight: bold;
     font-size: 15px;
 }
@@ -300,10 +300,10 @@ nav a:hover {
     border-color: #19bc9d;
 }
 .contact-form .btn-primary, .contact-form .btn-primary:active {
-    color: #fff;
+    color: #151515;
     min-width: 150px;
     font-size: 16px;
-    background: #926321; !important;
+    background: #C5B358; !important;
     border: none;
 }
 .contact-form .btn-primary:hover {
@@ -322,7 +322,7 @@ nav a:hover {
 .form-group {
 font-size: 18px;
 font-weight: bold;
-color: black;
+color: #C5B358;
 text-transform: uppercase;
 }
 
