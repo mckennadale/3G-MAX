@@ -123,14 +123,19 @@ nav a:hover {
 }
 
 .navbar .navbar-brand {
-    font-size: 25px;
+    font-size: 20px;
     text-transform: uppercase;
     font-family: 'Rammetto One', sans-serif;
     font-weight: bold;
     letter-spacing: 0.4px;
     margin: auto;
-    align-content: center;
+    align-content: left;
     padding-right: 15px;
+}
+
+.fa-bars {
+    margin: auto;
+
 }
 
 .navbar-nav .nav-item {
@@ -170,12 +175,13 @@ nav a:hover {
  }
 
  .our-dogs {
-     font-size: 70px;
-     letter-spacing: 2px;
+     font-size: 50px;
+     letter-spacing: 1px;
      text-transform: uppercase;
      font-weight: bold;
      font-family: 'Rammetto One', sans-serif;
      color: #C5B358;
+     text-align: center;
  }
 
  .list-inline-item {
@@ -327,3 +333,10 @@ color: #C5B358;
 text-transform: uppercase;
 }
 
+@media screen and (max-width: 320px){
+.our-dogs{
+    text-align:center !important;
+    
+}
+
+}
